@@ -83,7 +83,7 @@ type MultiSearchMovieInfo struct {
 	Overview         string   `json:"overview"`
 	ReleaseDate      string   `json:"release_date"`
 	OriginalTitle    string   `json:"original_title"`
-	GenreIDs         []uint32 `json:"ganre_ids"`
+	GenreIDs         []uint32 `json:"genre_ids"`
 	OriginalLanguage string   `json:"original_language"`
 	Title            string   `json:"title"`
 	BackdropPath     string   `json:"backdrop_path"`
@@ -106,7 +106,7 @@ type MultiSearchTvInfo struct {
 	Overview         string   `json:"overview"`
 	FirstAirDate     string   `json:"first_air_date"`
 	OriginCountry    []string `json:"origin_country"`
-	GenreIDs         []uint32 `json:"ganre_ids"`
+	GenreIDs         []uint32 `json:"genre_ids"`
 	PosterPath       string   `json:"poster_path"`
 	Popularity       float32
 	Name             string
